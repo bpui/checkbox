@@ -56,14 +56,14 @@
             background-color: $bpCheckboxBgColor;
         }
 
-        input {
-            opacity: 0;
-            outline: none;
-            position: absolute;
-            margin: 0;
-            width: 0;
-            height: 0;
-            z-index: -1;
+        .bp-checkbox__original {
+            opacity: 0 !important;
+            outline: none !important;
+            position: absolute !important;
+            margin: 0 !important;
+            width: 0 !important;
+            height: 0 !important;
+            z-index: -1 !important;
         }
     }
 
