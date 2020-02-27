@@ -1,0 +1,36 @@
+{
+  "description": "button",
+  "dependencies": {
+    "@bpui/libs": "0.0.19"
+  },
+  "directories": {},
+  "keywords": [],
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "style",
+    "src",
+    "dist",
+    "types"
+  ],
+  "main": "src/index.js",
+  "unpkg": "dist/index.js",
+  "types": "types/index.d.ts",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "lanck",
+      "email": "601768787@qq.com"
+    },
+    {
+      "name": "brainpoint",
+      "email": "bpoint.lee@gmail.com"
+    }
+  ],
+  "scripts": {
+    "prepare": "node ../../scripts/bundle.js"
+  },
+  "name": "@bpui/checkbox",
+  "version": "0.0.1"
+}
