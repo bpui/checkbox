@@ -1,7 +1,7 @@
 {
-  "description": "button",
+  "description": "checkbox",
   "dependencies": {
-    "@bpui/libs": "0.0.20"
+    "@bpui/libs": "0.0.22"
   },
   "directories": {},
   "keywords": [],
@@ -32,5 +32,5 @@
     "prepare": "node ../../scripts/bundle.js"
   },
   "name": "@bpui/checkbox",
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
