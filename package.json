@@ -15,7 +15,7 @@
     "types"
   ],
   "main": "src/index.js",
-  "unpkg": "dist/index.js",
+  "unpkg": "dist/index.min.js",
   "types": "types/index.d.ts",
   "license": "MIT",
   "maintainers": [
