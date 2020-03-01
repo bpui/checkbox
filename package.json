@@ -1,7 +1,7 @@
 {
   "description": "checkbox",
   "dependencies": {
-    "@bpui/libs": "0.0.22"
+    "@bpui/libs": "0.0.25"
   },
   "directories": {},
   "keywords": [],
@@ -18,6 +18,11 @@
   "unpkg": "dist/index.min.js",
   "types": "types/index.d.ts",
   "license": "MIT",
+  "homepage": "https://github.com/bpui/checkbox#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bpui/checkbox.git"
+  },
   "maintainers": [
     {
       "name": "lanck",
@@ -32,5 +37,5 @@
     "prepare": "node ../../scripts/bundle.js"
   },
   "name": "@bpui/checkbox",
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
