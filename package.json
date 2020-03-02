@@ -1,7 +1,7 @@
 {
   "description": "checkbox",
   "dependencies": {
-    "@bpui/libs": "0.0.25"
+    "@bpui/libs": "0.0.28"
   },
   "directories": {},
   "keywords": [],
@@ -14,7 +14,8 @@
     "dist",
     "types"
   ],
-  "main": "src/index.js",
+  "main": "dist/index.common.min.js",
+  "module": "dist/index.esm.min.js",
   "unpkg": "dist/index.min.js",
   "types": "types/index.d.ts",
   "license": "MIT",
@@ -37,5 +38,5 @@
     "prepare": "node ../../scripts/bundle.js"
   },
   "name": "@bpui/checkbox",
-  "version": "0.0.5"
+  "version": "0.0.9"
 }

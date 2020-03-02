@@ -1,5 +1,5 @@
-@import 'https://unpkg.com/@bpui/libs/style/_variable.scss';
-@import 'https://unpkg.com/@bpui/checkbox/style/_variable.scss';
+@import 'https://unpkg.com/@bpui/libs/dist/index.scss';
+@import "./variable";
 
 .bp-checkbox {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
