@@ -38,5 +38,5 @@
     "prepare": "node ../../scripts/bundle.js"
   },
   "name": "@bpui/checkbox",
-  "version": "0.0.10"
+  "version": "0.0.11"
 }
