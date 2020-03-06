@@ -6,3 +6,15 @@
 <bp-checkbox disabled="disabled" >chk3</bp-checkbox>
 <bp-checkbox :checked="true" disabled="disabled" >chk4</bp-checkbox>
 ```
+
+
+style
+
+```css
+/* scss */
+import '@bpui/libs/style';
+import '@bpui/checkbox/style';
+
+/* css */
+<link href="~@bpui/checkbox/dist/index.css" rel="stylesheet" type="text/css"/>
+```
