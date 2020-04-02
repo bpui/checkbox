@@ -12,7 +12,7 @@ style
 
 ```css
 /* scss */
-import '@bpui/libs/style/class.scss';
+import '@bpui/libs/style';
 import '@bpui/checkbox/style';
 
 /* css */
