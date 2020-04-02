@@ -16,5 +16,5 @@ import '@bpui/libs/style';
 import '@bpui/checkbox/style';
 
 /* css */
-<link href="~@bpui/checkbox/dist/index.css" rel="stylesheet" type="text/css"/>
+<link href="~@bpui/checkbox/dist/style.css" rel="stylesheet" type="text/css"/>
 ```
