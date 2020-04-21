@@ -1,3 +1,9 @@
+/*!
+ * bpui checkbox v0.1.7
+ * Copyright (c) 2020 Copyright bpoint.lee@live.com All Rights Reserved.
+ * Released under the MIT License.
+ */
+
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('@bpui/libs')) :
   typeof define === 'function' && define.amd ? define(['@bpui/libs'], factory) :

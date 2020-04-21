@@ -1,3 +1,9 @@
+/*!
+ * bpui checkbox v0.1.7
+ * Copyright (c) 2020 Copyright bpoint.lee@live.com All Rights Reserved.
+ * Released under the MIT License.
+ */
+
 import bpLibs from '@bpui/libs';
 
 //
