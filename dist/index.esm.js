@@ -1,5 +1,5 @@
 /*!
- * bpui checkbox v0.1.8
+ * bpui checkbox v0.1.9
  * Copyright (c) 2020 Copyright bpoint.lee@live.com All Rights Reserved.
  * Released under the MIT License.
  */
@@ -35,10 +35,10 @@ var script = {
   components: {},
   props: {
     checked: {
-      default: false
+      "default": false
     },
     disabled: {
-      default: false,
+      "default": false,
       type: Boolean
     }
   },
@@ -817,106 +817,79 @@ function normalizeComponent(template, style, script, scopeId, isFunctionalTempla
 }
 
 /* script */
-const __vue_script__ = script;
-
+var __vue_script__ = script;
 /* template */
-var __vue_render__ = function() {
+
+var __vue_render__ = function __vue_render__() {
   var _vm = this;
+
   var _h = _vm.$createElement;
+
   var _c = _vm._self._c || _h;
-  return _c(
-    "label",
-    {
-      staticClass: "bp-checkbox",
-      class: {
-        "bp-Checkbox__disabled": _vm.isDisabled
-      },
-      on: {
-        mouseenter: function($event) {
-          _vm.hovering = true;
-        },
-        mouseleave: function($event) {
-          _vm.hovering = false;
-        }
-      }
+
+  return _c("label", {
+    staticClass: "bp-checkbox",
+    "class": {
+      "bp-Checkbox__disabled": _vm.isDisabled
     },
-    [
-      _c("span", { staticClass: "bp-checkbox__input" }, [
-        _c(
-          "span",
-          {
-            staticClass: "bp-checkbox__inner",
-            class: [
-              _vm.hovering ? "bp-checkbox__inner_hover" : "",
-              _vm.isChecked ? "bp-checkbox__inner_checked" : ""
-            ]
-          },
-          [
-            _vm.isChecked
-              ? _c("bp-icon", { attrs: { name: "bp-checkbox_checked" } })
-              : _vm._e()
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "input",
-          _vm._b(
-            {
-              staticClass: "bp-checkbox__original",
-              attrs: { type: "checkbox", disabled: _vm.isDisabled },
-              domProps: { checked: _vm.checked },
-              on: { change: _vm.handelChange }
-            },
-            "input",
-            _vm.$attrs,
-            false
-          )
-        )
-      ]),
-      _vm._v(" "),
-      _vm.$slots.default
-        ? _c(
-            "span",
-            { staticClass: "bp-checkbox__label" },
-            [_vm._t("default")],
-            2
-          )
-        : _vm._e()
-    ]
-  )
+    on: {
+      mouseenter: function mouseenter($event) {
+        _vm.hovering = true;
+      },
+      mouseleave: function mouseleave($event) {
+        _vm.hovering = false;
+      }
+    }
+  }, [_c("span", {
+    staticClass: "bp-checkbox__input"
+  }, [_c("span", {
+    staticClass: "bp-checkbox__inner",
+    "class": [_vm.hovering ? "bp-checkbox__inner_hover" : "", _vm.isChecked ? "bp-checkbox__inner_checked" : ""]
+  }, [_vm.isChecked ? _c("bp-icon", {
+    attrs: {
+      name: "bp-checkbox_checked"
+    }
+  }) : _vm._e()], 1), _vm._v(" "), _c("input", _vm._b({
+    staticClass: "bp-checkbox__original",
+    attrs: {
+      type: "checkbox",
+      disabled: _vm.isDisabled
+    },
+    domProps: {
+      checked: _vm.checked
+    },
+    on: {
+      change: _vm.handelChange
+    }
+  }, "input", _vm.$attrs, false))]), _vm._v(" "), _vm.$slots["default"] ? _c("span", {
+    staticClass: "bp-checkbox__label"
+  }, [_vm._t("default")], 2) : _vm._e()]);
 };
+
 var __vue_staticRenderFns__ = [];
 __vue_render__._withStripped = true;
+/* style */
 
-  /* style */
-  const __vue_inject_styles__ = undefined;
-  /* scoped */
-  const __vue_scope_id__ = undefined;
-  /* module identifier */
-  const __vue_module_identifier__ = undefined;
-  /* functional template */
-  const __vue_is_functional_template__ = false;
-  /* style inject */
-  
-  /* style inject SSR */
-  
-  /* style inject shadow dom */
-  
+var __vue_inject_styles__ = undefined;
+/* scoped */
 
-  
-  const __vue_component__ = normalizeComponent(
-    { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
-    __vue_inject_styles__,
-    __vue_script__,
-    __vue_scope_id__,
-    __vue_is_functional_template__,
-    __vue_module_identifier__,
-    false,
-    undefined,
-    undefined,
-    undefined
-  );
+var __vue_scope_id__ = undefined;
+/* module identifier */
+
+var __vue_module_identifier__ = undefined;
+/* functional template */
+
+var __vue_is_functional_template__ = false;
+/* style inject */
+
+/* style inject SSR */
+
+/* style inject shadow dom */
+
+var __vue_component__ = normalizeComponent({
+  render: __vue_render__,
+  staticRenderFns: __vue_staticRenderFns__
+}, __vue_inject_styles__, __vue_script__, __vue_scope_id__, __vue_is_functional_template__, __vue_module_identifier__, false, undefined, undefined, undefined);
 
 function init() {
   bpLibs.icons.registerAliasIcon('bp-checkbox_checked', 'ok');
